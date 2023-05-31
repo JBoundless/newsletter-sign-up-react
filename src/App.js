@@ -58,7 +58,7 @@ export default function App() {
           </form>
         </section>
         <section className="form-img">
-          <img src={...signup} />
+          <img src='https://raw.githubusercontent.com/JBoundless/newsletter-sign-up-react/main/src/images/illustration-sign-up-desktop.svg' />
         </section>
       </div>
       </div>)}
