@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  background-color: hsl(234, 29%, 20%);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  min-height: 100vh;
+}
+h2 {
+  font-size: 40px;
+}
+.newsletter-form {
+  background-color: white;
+  color: hsl(235, 18%, 26%);
+  font-size: 16px;
+  width: 900px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.success {
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 12px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  width: 60%;
+  padding-right: 10px;
+  color: hsl(234, 29%, 20%);
+}
+
+.form-img .img {
+  width: 100%;
+}
+
+ul {
+  list-style-image: url(./images/icon-list.svg);
+}
+
+li {
+  padding-left: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+input {
+  padding: 10px 20px;
+  font-family: inherit;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid grey;
+}
+.email-text {
+  font-size: 12px;
+  font-style: bold;
+  color: hsl(234, 29%, 20%);
+}
+
+article {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  color: red;
+}
+
+.error-message {
+  color: 'red';
+  font-weight: 500;
+}
+
+button {
+  font-family: inherit;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: hsl(234, 29%, 20%);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: hsl(4, 100%, 67%);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  .newsletter-form {
+    display: grid;
+  }
+}
